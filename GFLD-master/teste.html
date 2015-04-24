@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Teste</title>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+
+    <!--   font Tab        -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+    <script>
+        $(function() {
+            $( "#tabs" ).tabs();
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="name-panel">
+    <h1 id="fst-heading"><span id="nome">Gestor</span> de Filas de
+        <span id="disciplinas">Disciplinas</span></h1>
+    <h2 id="snd-heading">{ FACOM - UFU }</h2>
+</div>
+
+
+<nav><ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="doc.html">Doc</a></li>
+    <li> <a href="#">Relatorios </a>
+        <ul>
+            <li> <a href="#">Solicitação Disciplina</a> </li>
+        </ul>
+
+    <li> <a href="#">Consultas </a>
+        <ul>
+            <li> <a href="cadDisc.html">Cadastro Disciplina</a> </li>
+            <li> <a href="#">Histórico disciplinas </a> </li>
+        </ul>
+
+
+</ul></nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="tabs">
+    <ul>
+        <li><a href="#aba-1">Disciplinas Escolhidas</a></li>
+        <li><a href="#aba-2">Tabela Disciplinas</a></li>
+    </ul>
+    <div id="aba-1">
+        <p>Conteudo da aba 1.</p>
+    </div>
+    <div id="aba-2">
+        <p>Conteudo da aba 2.</p>
+    </div>
+</div>
+<section >
+
+ </section>
+
+
+</body>
+
+</html>
